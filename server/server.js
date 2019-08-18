@@ -56,6 +56,10 @@ app.get('/api/profile',auth,(req,res)=>{
     res.status(200).send(req.token);
 })
 
+
+app.get('/api/profile',auth,(req,res)=>{
+    res.json([{name:"rushi"}]);
+})
  
 const port = process.env.PORT || 3000;
 
