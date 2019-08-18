@@ -57,7 +57,7 @@ app.get('/api/profile',auth,(req,res)=>{
 })
 
 
-app.get('/api/profile',auth,(req,res)=>{
+app.get('/api/name',auth,(req,res)=>{
     res.json([{name:"rushi"}]);
 })
  
